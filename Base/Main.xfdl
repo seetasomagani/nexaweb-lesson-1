@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL version="1.5">
+  <TypeDefinition url="..\default_typedef.xml"/>
+  <Form id="Main" classname="Main" left="0" top="0" width="1024" height="768" titletext="New Form">
+    <Layouts>
+      <Layout>
+        <Button id="Button00" taborder="0" text="Find Me Some!" left="33.59%" top="573" right="26.27%" height="51" style="background:#aa66bbff;color:#ddddddff;font:bold 12 Dotum;shadow:outer 2,2 2 gray;"/>
+        <ImageViewer id="ImageViewer00" taborder="2" left="0" top="183" image="URL('images::bamboo_2_T.png')" style="background:transparent;border:0 solid #e5e5e5ff ;" width="233" bottom="0" stretch="fixaspectratio"/>
+        <Static id="Static00" taborder="3" text="Kimchi Konquest" left="0%" top="0" right="0%" height="90" style="background:#71b821ff;color:#ffddddff;align:center middle;font:bold 30 Dotum;shadow:outer 2,2 2 gray;"/>
+        <Static id="Static01" taborder="4" left="32.81%" top="153" right="18.95%" height="383" wordwrap="english" usedecorate="" style="background:transparent;align:left top;font:14 Garamond;" text="Kimchi is not only a staple of every Korean meal, it is also one of the first. Kimchi’s origins can be traced 3,000 years back, and to this day its fermentation process remains roughly unchanged. Cabbage heads are saturated with sundried chili paste, then placed in clay pots and buried in the ground to ferment for at least three days. And according to my extensive research (i.e. gorging on it), nothing beats the flavour of old-school kimchi. Forget about the Eskimo word count for snow, Koreans are serious about their kimchi - there are over a hundred different varieties depending on both season and region. Baechu (cabbage) kimchi is the most common type and its signature taste encompasses the best Korean cuisine has to offer. It is spicy, sweet, salty, crunchy and it can perfectly compliment any range of tastes and textures, from stews to grilled meats, to plain rice." readonly="true"/>
+      </Layout>
+    </Layouts>
+    <Script type="xscript5.0"><![CDATA[
+this.Static00_onclick = function(obj:Static,  e:nexacro.ClickEventInfo)
+{
+	
+}
+]]></Script>
+  </Form>
+</FDL>
