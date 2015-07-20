@@ -1,13 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FDL version="1.5">
   <TypeDefinition url="..\default_typedef.xml"/>
-  <Form id="Main" classname="Main" left="0" top="0" width="1024" height="768" titletext="New Form">
+  <Form id="Main" classname="Main" left="0" top="0" width="1024" height="768" titletext="New Form" style="color:#46463dff;">
     <Layouts>
-      <Layout>
-        <Button id="Button00" taborder="0" text="Find Me Some!" left="33.59%" top="573" right="26.27%" height="51" style="background:#aa66bbff;color:#ddddddff;font:bold 12 Dotum;shadow:outer 2,2 2 gray;"/>
+      <Layout width="1024" height="768">
         <ImageViewer id="ImageViewer00" taborder="2" left="0" top="183" image="URL('images::bamboo_2_T.png')" style="background:transparent;border:0 solid #e5e5e5ff ;" width="233" bottom="0" stretch="fixaspectratio"/>
-        <Static id="Static00" taborder="3" text="Kimchi Konquest" left="0%" top="0" right="0%" height="90" style="background:#71b821ff;color:#ffddddff;align:center middle;font:bold 30 Dotum;shadow:outer 2,2 2 gray;"/>
-        <Static id="Static01" taborder="4" left="32.81%" top="153" right="18.95%" height="383" wordwrap="english" usedecorate="" style="background:transparent;align:left top;font:14 Garamond;" text="Kimchi is not only a staple of every Korean meal, it is also one of the first. Kimchi’s origins can be traced 3,000 years back, and to this day its fermentation process remains roughly unchanged. Cabbage heads are saturated with sundried chili paste, then placed in clay pots and buried in the ground to ferment for at least three days. And according to my extensive research (i.e. gorging on it), nothing beats the flavour of old-school kimchi. Forget about the Eskimo word count for snow, Koreans are serious about their kimchi - there are over a hundred different varieties depending on both season and region. Baechu (cabbage) kimchi is the most common type and its signature taste encompasses the best Korean cuisine has to offer. It is spicy, sweet, salty, crunchy and it can perfectly compliment any range of tastes and textures, from stews to grilled meats, to plain rice." readonly="true"/>
+        <Static id="Static00" taborder="3" text="Kimchi Konquest" left="0%" top="0" right="0%" height="90" style="background:#71b821ff;color:#ffddddff;align:center middle;font:bold 30 Dotum;shadow:outer 2,2 2 gray;" wordwrap="english"/>
+        <Static id="Static01" taborder="4" left="32.81%" top="153" right="18.95%" height="383" wordwrap="english" usedecorate="" style="background:transparent;align:left top;font:14 Garamond;" text="Kimchi is not only a staple of every Korean meal, it is also one of the first. Kimchi’s origins can be traced 3,000 years back, and to this day its fermentation process remains roughly unchanged. Cabbage heads are saturated with sundried chili paste, then placed in clay pots and buried in the ground to ferment for at least three days. And according to my extensive research (i.e. gorging on it), nothing beats the flavour of old-school kimchi.&#13;&#10;&#13;&#10;Forget about the Eskimo word count for snow - Koreans are serious about their kimchi - there are over a hundred different varieties depending on both season and region. Baechu (cabbage) kimchi is the most common type and its signature taste encompasses the best Korean cuisine has to offer. It is spicy, sweet, salty, crunchy and it can perfectly compliment any range of tastes and textures, from stews to grilled meats, to plain rice." readonly="true"/>
+        <Button id="Button00" taborder="0" text="Find Me Some!" left="46.09%" style="background:#aa66bbff;color:#ddddddff;font:bold 12 Dotum;shadow:outer 2,2 2 gray;" height="50" bottom="144" position="absolute" width="200"/>
+      </Layout>
+      <Layout name="mobile" width="320" height="960" description="Layout for iPhone 3GS and above">
+        <Static id="Static01" left="12" right="12" top="200" height="622"/>
+        <ImageViewer id="ImageViewer00" image="URL('images::bamboo_2_H.png')" left="12" width="300" stretch="none" position="absolute" height="115" top="83"/>
+        <Button id="Button00" left="0%" position="absolute" bottom="382" height="50" width="100%"/>
+      </Layout>
+      <Layout name="Tablet" screenid="" width="600" height="768">
+        <ImageViewer id="ImageViewer00" left="4" top="67" width="300" image="URL('images::bamboo_2_H.png')" height="133"/>
+        <Static id="Static01" left="20" top="201" height="383" right="20"/>
+        <Button id="Button00" left="24%" top="541" height="51" right="36%"/>
       </Layout>
     </Layouts>
     <Script type="xscript5.0"><![CDATA[
